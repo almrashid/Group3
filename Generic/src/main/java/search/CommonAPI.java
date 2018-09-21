@@ -31,6 +31,7 @@ public class CommonAPI {
         System.setProperty("webdriver.gecho.driver","C:\\Users\\almrashid\\SeleniumMaven\\WebAutomationTest\\Generic\\browser-directory\\geckodriver.exe ");
 
         driver=new FirefoxDriver();
+
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
@@ -42,6 +43,9 @@ public class CommonAPI {
         driver.close();
 
     }
+
+
+
 
     /*public void typeonID(String locator, String value){
         driver.findElement(By.id(locator)).sendKeys(value);
