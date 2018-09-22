@@ -18,6 +18,7 @@ public class LoginToMento extends CommonAPI {
      loginPage.getUsername().sendKeys("almrashid@yahoo.com");
      loginPage.getPassword().sendKeys("Toyota2007");
      loginPage.getSubmit().click();
+     loginPage.getLogOutButton().click();
 
 
 

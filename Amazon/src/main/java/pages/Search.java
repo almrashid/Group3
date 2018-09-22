@@ -19,20 +19,25 @@ public class Search {
     public static WebElement submitButtonWebElement;
 
     public static WebElement getSearchInputWebElement() {
+
         return searchInputWebElement;
     }
 
     public static WebElement getSubmitButtonWebElement() {
+
         return submitButtonWebElement;
     }
 
-    public void searchFor(String value){
+    public void searchFor(String value)
+    {
         getSearchInputWebElement().sendKeys(value);
     }
-    public void submitSearchButton(){
+    public void submitSearchButton()
+    {
         getSubmitButtonWebElement().click();
     }
-    public void clearInput(){
+    public void clearInput()
+    {
         getSearchInputWebElement().clear();
     }
     public List<String>getMenuData( ){

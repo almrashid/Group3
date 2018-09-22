@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Amazon AutomationTest " parallel="false">
+<suite name="Macys AutomationTest " parallel="false">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -9,12 +9,12 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://magento.com/"/>
+    <parameter name="url" value="https://www.macys.com/"/>
 
-    <test name = "E-commerce site Magento Login page">
+    <test name = "macy search page">
         <classes>
             <!--class name="search.InputSearch"/>-->
-            <class name="testcases.LoginToMento"/>
+            <class name="testcases.SearchTest"/>
 
         </classes>
     </test>

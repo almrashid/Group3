@@ -15,7 +15,10 @@
         <classes>
             <!--class name="search.InputSearch"/>-->
             <class name="testcases.LoginToMento"/>
+
         </classes>
     </test>
+
+
 
 </suite>
